@@ -3,8 +3,12 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "extensions": [
-        "github.copilot",
-        "ms-dotnettools.csdevkit"
-    ]
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "ms-dotnettools.csdevkit"
+            ]
+        }
+    }
 }

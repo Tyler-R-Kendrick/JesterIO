@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <!-- Set the latest C# language version -->
+    <LangVersion>latest</LangVersion>
+
+    <!-- Set the latest .NET target framework -->
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Enable Central Package Management -->
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+</Project>

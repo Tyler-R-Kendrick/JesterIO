@@ -1,0 +1,10 @@
+{
+    "name": "JesterIO Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "github.copilot",
+        "ms-dotnettools.csdevkit"
+    ]
+}

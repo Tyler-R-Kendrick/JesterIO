@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72550C71-72AD-4219-B71D-346591B5C34F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{332B81A9-8C5E-4994-97A5-B00653BB7C51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jester.Abstractions", "src\Jester\Abstractions\Jester.Abstractions.csproj", "{DC8F88D7-39E7-44F1-A8DD-648AD1A59946}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jester", "Jester", "{E2734148-1140-49D6-919E-5E46D38D5A0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jester.App", "src\Jester\App\Jester.App.csproj", "{2EBCC367-9B72-4349-AF9A-D41948ED1D63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jester.AppHost", "src\Jester\AppHost\Jester.AppHost.csproj", "{5F94CFD4-CD53-46CF-B2E3-ECA8712EA01C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jester.Abstractions", "src\Jester\Abstractions\Jester.Abstractions.csproj", "{C83340CF-F2F4-44A3-AEA5-789C1D83C05B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +19,29 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC8F88D7-39E7-44F1-A8DD-648AD1A59946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC8F88D7-39E7-44F1-A8DD-648AD1A59946}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC8F88D7-39E7-44F1-A8DD-648AD1A59946}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC8F88D7-39E7-44F1-A8DD-648AD1A59946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBCC367-9B72-4349-AF9A-D41948ED1D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBCC367-9B72-4349-AF9A-D41948ED1D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBCC367-9B72-4349-AF9A-D41948ED1D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBCC367-9B72-4349-AF9A-D41948ED1D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F94CFD4-CD53-46CF-B2E3-ECA8712EA01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F94CFD4-CD53-46CF-B2E3-ECA8712EA01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F94CFD4-CD53-46CF-B2E3-ECA8712EA01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F94CFD4-CD53-46CF-B2E3-ECA8712EA01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83340CF-F2F4-44A3-AEA5-789C1D83C05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83340CF-F2F4-44A3-AEA5-789C1D83C05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83340CF-F2F4-44A3-AEA5-789C1D83C05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83340CF-F2F4-44A3-AEA5-789C1D83C05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6F999E95-2D84-4582-93EE-C9595921A7FC}
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DC8F88D7-39E7-44F1-A8DD-648AD1A59946} = {72550C71-72AD-4219-B71D-346591B5C34F}
+		{E2734148-1140-49D6-919E-5E46D38D5A0B} = {332B81A9-8C5E-4994-97A5-B00653BB7C51}
+		{2EBCC367-9B72-4349-AF9A-D41948ED1D63} = {E2734148-1140-49D6-919E-5E46D38D5A0B}
+		{5F94CFD4-CD53-46CF-B2E3-ECA8712EA01C} = {E2734148-1140-49D6-919E-5E46D38D5A0B}
+		{C83340CF-F2F4-44A3-AEA5-789C1D83C05B} = {E2734148-1140-49D6-919E-5E46D38D5A0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FF1E534-154A-4FFE-8AE1-750B91993D25}
 	EndGlobalSection
 EndGlobal

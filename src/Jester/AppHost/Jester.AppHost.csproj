@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+  <ItemGroup>
+    <ProjectReference
+      IsAspireProjectResource="false"
+      Include="../App/*.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- Enable Aspire -->
+    <IsAspireHost>true</IsAspireHost>
+  </PropertyGroup>
+</Project>

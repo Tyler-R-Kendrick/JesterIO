@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Jester.App</RootNamespace>
+    <AssemblyName>Jester.App</AssemblyName>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" />
+    <ProjectReference Include="../Abstractions/*.csproj" />
+    <PackageReference Include="CommunityToolkit.Diagnostics" />
+  </ItemGroup>
+
+</Project>
